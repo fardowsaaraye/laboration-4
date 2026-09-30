@@ -20,3 +20,6 @@ console.log(dish);
 // 5. Ta bort den första matträtten i arrayen // 
 dish.shift();
 console.log(dish);
+
+// 6. Skriv ut arrayen igen efter förändringarna //
+console.table(dish);
