@@ -1,5 +1,6 @@
 /* Lösning till Uppgift 2. Av Fardowsa Araye, 2026 */
 "use strict";
+
 /* Skapar variabel för produktens pris och antal produkter */
 const price = 100;
 const quantity = 3;
