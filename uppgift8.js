@@ -12,7 +12,7 @@ const book =  {
     function printBookInfo(book)  {
     console.log(`Titel: ${book.title}`);
     console.log(`Författare: ${book.author}`);
-    console.log(`Utgivningsår: ${book.publishedYear}`);
+   console.log(`Utgivningsår: ${book.publishedYear}`);
     }
 
     // Anropar funktionen bokobjektet 
