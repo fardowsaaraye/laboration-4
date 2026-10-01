@@ -4,13 +4,18 @@
 // En array med minst sex tal 
 const numbers = [2, 4, 6, 8, 10, 12];
 
-// skapa en funktion som tar emot arrayen som parameter 
+// Skapa en funktion som tar emot arrayen som parameter 
     function calculateSum(numbers){
+        let sum = 0;
+        
+        // loppar igenom arrayens innehåll 
+        for (let i = 0; i < numbers.length; i++) {
+            sum += numbers[i];
+         }
+         // Returnerar summan
+        return sum;
 }
-// loopa genom arrayen med en for-loop 
-for (let i = 0; i < numbers.length; i++) {
-    console.log(numbers[i]);
-}
-// anropar funktionen med arrayen 
-calculateSum(numbers);
+// Skriver ut resultat 
+console.log("Summan är:" + calculateSum(numbers));
+
 
